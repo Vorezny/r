@@ -13,24 +13,14 @@
 
 <body>
 
-     <form ction="https://formsubmit.io/send/vorezny@gmail.com" method="POST">
-    <label for="mail>">Twój e-mail*</label>
-    <input
-      id="mail"
-      name="mail"
-      type="mail"
-      placeholder="Wpisz swój adres">
+     <form id="contactform" action="https://formsubmit.io/send/vorezny@gmail.com" method="POST">
+    <input name="name" type="text" id="name">
+    <input name="email" type="email" id="email">
+    <textarea name="comment" id="comment" rows="3"></textarea>
 
-  <label for="msg">Twoja wiadomość*</label>
-  <textarea
-    id="msg"
-    name="msg"
-    rows="5"
-    placeholder="Wpisz wiadomość">
-  </textarea>
+    <input name="_formsubmit_id" type="text" style="display:none">
 
-  <input value="Wyślij" type="submit"></button>
+    <input value="Submit" type="submit">
   </form>
-
-       
+  
 </body>
