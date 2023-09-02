@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html lang="pl"></html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kontak</title>
+  </head>
+  <body>
+    <form class="container"
+    action="https://formsubmit.io/send/vorezny@gmail.com" method="POST"
+      
+      
+      
+      
+      >
+      <h2>Contact Us</h2>
+      <div class="input-box">
+        <input type="text" name="Username" required />
+        <label for="">Nazwa Użytkownika</label>
+      </div>
 
-<head>
-   <meta charset="utf-8" />
-   <title>ffff</title>
-   <meta name="description" content="Strona Serwerowa Team Pandy. Dolacz do naszego comiunity" />
-   <meta name="keywords" content="Team, Minecraft, pvp, Pandy" />
-   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-   <link rel="stylesheet" href="style.css" type="text/css" />
+      <div class="input-box">
+        <input type="email" name="Email" required />
+        <label for="">E-mail</label>
+      </div>
 
-</head>
+      <div class="input-box">
+        <textarea name="Message" required></textarea>
+        <label for="">Wiadomość</label>
+      </div>
 
-<body>
-
-     <form id="contactform" action="https://formsubmit.io/send/vorezny@gmail.com" method="POST">
-    <input name="name" type="text" id="name">
-    <input name="email" type="email" id="email">
-    <textarea name="comment" id="comment" rows="3"></textarea>
-
-    <input name="_formsubmit_id" type="text" style="display:none">
-
-    <input value="Submit" type="submit">
-  </form>
-  
-</body>
+      <button class="btn"><b>Wyślij</b></button>
+    </form>
+  </body>
+</html>
