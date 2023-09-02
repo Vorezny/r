@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-body{
-  background: url('bg.jpg')no-repeat;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style: normal;
-  font-display: none;
-}
 
 .container {
   position: fixed;
